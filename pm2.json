@@ -1,0 +1,23 @@
+/* ========================================
+ *  company : Dilusense
+ *   author : Kuangch
+ *     date : 2018/11/22
+ * ======================================== */
+
+{
+    "apps": [{
+    "name": "file-server",
+    "script": "index.js",
+    "cwd": "/opt/tools/file_server",
+    "exec_mode": "fork",
+    "instances": 1,
+    "interpreter": "/root/.nvm/versions/node/v8.9.0/bin/node",
+    "max_memory_restart": "50M",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+
+    }
+}]
+}
